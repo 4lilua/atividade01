@@ -1,0 +1,40 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+:root {
+    --primary: #126de4;
+    --black: #000;
+    --white: #fff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-image: url(/banner.jpeg);
+    border-bottom: 2rem solid var(--primary);
+    height: 8rem;
+}
+
+header h1{
+    text-align: center;
+    color: var(--white);
+}
+
+
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: var(--white);
+}
+
