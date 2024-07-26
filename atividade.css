@@ -19,7 +19,7 @@ header{
 }
 
 .banner{
-    background-image: url(/banner.jpeg);
+    background-image: url(banner.jpeg);
     height: 7rem;
 }
 
