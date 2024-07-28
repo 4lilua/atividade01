@@ -47,37 +47,44 @@ header{
     align-items: center;
 }
 
-.titulo{
-    padding-top: 0.2rem;
-    font-size: 1.4rem;
-    text-align: center;
-}
 main{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 1rem;
+    justify-content: left;
     flex-direction: column;
     min-height: calc(100vh - 13rem);
-    background-size: auto;
-    padding-bottom: 2rem;
+    font-size: 1.2rem;
+
 }
 
-.negrito{
-    font-weight: bold;
+#topo div, p{
+    min-height: 100vh;
+    color: var(--black);
 }
 
-.posicao{
-    text-align: left;
+.perguntas{
+    margin-left: 10rem;
 }
 
-table, tr, td{
-    border: 1.2px solid var(--black);
-    border-collapse: collapse;
+li{
+    margin-bottom: 1.5rem;
 }
 
-table tr td{
-    text-align: center;
-    padding: 0.8rem;
+.respostas{
+    display: grid;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 9rem;
+}
+
+.respostas a{
+    display: grid;
+    margin-top: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
 }
 
 footer{
@@ -90,4 +97,10 @@ footer{
     padding-left: 1rem;
     align-items: center;
     display: flex;
+    
+}
+
+footer p{
+    color: var(--white);
+    padding-top: 27rem;
 }

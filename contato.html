@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contato.css">
+
+</head>
+<body>
+    <header>
+        <section class="banner">
+            <h1 class="banner_text">CEFET-MG - Campus Varginha - Curso Técnico</h1>
+        </section>
+
+        <nav>
+            <div class="links_nav">
+                <a href="index.html">Início</a>
+                <a href="curso.html">Curso</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contato.html">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend class="espaco">Contato</legend>
+                <div class="formulario">
+                    <label class="tam_fonte" for="nome">Nome:</label>
+                    <input class="tam_fonte2" class="tamanho" type="text" id="nome" name="name" placeholder="João"><br>
+                </div>
+                <div class="formulario">
+                    <label class="tam_fonte" for="email">E-mail:</label>
+                    <input class="tam_fonte2" class="tamanho" type="email" id="email" name="e-mail" placeholder="name@email"><br>
+                </div>
+                <div class="formulario">
+                    <input type="radio" id="masculino" name="genero" value="Masculino">
+                    <label class="tam_fonte" for="masculino">Masculino</label>
+                    <input type="radio" id="feminino" name="genero" value="Feminino">
+                    <label class="tam_fonte" for="feminino">Feminino</label><br>
+                </div>
+                <div class="formulario">
+                    <label class="tam_fonte" for="estado">Estado/Cidade</label>
+                    <select class="tam_fonte2" id="estado" name="estados">
+                        <option value=""></option>
+                        <option value="MG">MG</option>
+                        <option value="RJ">RJ</option>
+                        <option value="SP">SP</option>
+                    </select>
+                    <input class="tam_fonte2" class="tamanho" type="text" id="cidade" name="cidade" placeholder="Varginha"><br>
+                </div>
+                <div class="formulario">
+                    <label class="tam_fonte" for="file">Selecione um arquivo</label>
+                    <input class="tam_fonte2" type="file" id="file" name="myfile"><br>
+                </div>
+                <div class="formulario">
+                    <label class="tam_fonte" for="sugestao">Sugestão</label><br>
+                    <textarea name="sugestao" rows="5" cols="85"></textarea><br>
+                </div>
+                <div class="formulario" class="botao">
+                    <button class="botao1" type="submit">Enviar</button>
+                    <button class="botao2" type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>© copyleft </p>
+    </footer>
+</body>
+</html>
