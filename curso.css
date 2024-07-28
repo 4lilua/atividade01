@@ -57,26 +57,18 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-<<<<<<< HEAD
     min-height: calc(100vh - 13rem);
     background-size: auto;
     padding-bottom: 2rem;
-=======
->>>>>>> e5142196553cf84283b8e4975b2d9e3f1d0715a9
 }
 
 .negrito{
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 .posicao{
     text-align: left;
 }
-=======
-
-
->>>>>>> e5142196553cf84283b8e4975b2d9e3f1d0715a9
 
 table, tr, td{
     border: 1.2px solid var(--black);
@@ -87,16 +79,6 @@ table tr td{
     text-align: center;
     padding: 0.8rem;
 }
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
->>>>>>> e5142196553cf84283b8e4975b2d9e3f1d0715a9
 
 footer{
     background-color: var(--primary);
